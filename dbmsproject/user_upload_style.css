@@ -1,0 +1,63 @@
+.recipe-image {
+    height: 300px;
+    width: 300px;
+    margin: 100px;
+}
+
+.recipe-card {
+    font-size: 20px;
+    color: white;
+    outline: dotted;
+    display: table;
+}
+
+body {
+    background-image: url(view_uploaded.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.body_content {
+    text-align: center;
+    text-align: -webkit-center;
+}
+
+
+h2 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.recipe-content {
+    margin: 100px;
+}
+
+.video-link {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+a {
+    color: white;
+    margin-bottom: 10px;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#h3-style {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.recipe-container {
+    background-color: darkturquoise;
+}
