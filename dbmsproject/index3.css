@@ -1,0 +1,70 @@
+button {
+  margin: 10px;
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header-container {
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  /* To vertically center the button */
+}
+
+.button {
+  margin: 10px;
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+
+.header {
+  font-family: cursive;
+  text-align: center;
+  border-bottom-style: double;
+  margin: auto;
+}
+
+.user-section {
+  background-color: #4F4E4A
+}
+
+body {
+  background-image: url(landing_page.jpg);
+  background-size: cover;
+
+}
+
+#user-greeting {
+  font-family: monospace;
+  font-size: 20px;
+  animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+  0% {
+    color: red;
+  }
+
+  50% {
+    color: blue;
+  }
+
+  100% {
+    color: red;
+  }
+}
